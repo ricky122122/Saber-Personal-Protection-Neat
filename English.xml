@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!--Тепловизор/Thermal Goggles/热成像/熱成像-->
+  <coc.thermalgoggles>Thermal Goggles</coc.thermalgoggles>
+  <!--Шлемы/Helmet/头盔/頭盔-->
+  <entityname.helmetsw1>Special helmet O.C.A. white-blue</entityname.helmetsw1>
+  <entitydescription.helmetsw1>Modified coalition ballistic helmet. Part of the «O.C.A. Special Suit» kit (Omnidirectional Combined Armor).</entitydescription.helmetsw1>
+  <entityname.helmetsw2>Special helmet O.C.A. (Lantern) white-blue</entityname.helmetsw2>
+  <entitydescription.helmetsw2>Modified coalition ballistic helmet. Part of the «O.C.A. Special Suit» kit (Omnidirectional Combined Armor). A flashlight has been added.</entitydescription.helmetsw2>
+  <entityname.helmetsw3>Special helmet O.C.A. (Lantern/Mask) white-blue</entityname.helmetsw3>
+  <entitydescription.helmetsw3>Modified coalition ballistic helmet. Part of the «O.C.A. Special Suit» kit (Omnidirectional Combined Armor). A flashlight has been added. Slightly modified, using an Underwater Mask.</entitydescription.helmetsw3>
+  <entityname.helmetsb1>Special helmet O.C.A. black-orange</entityname.helmetsb1>
+  <entitydescription.helmetsb1>Modified coalition ballistic helmet. Part of the «O.C.A. Special Suit» kit (Omnidirectional Combined Armor).</entitydescription.helmetsb1>
+  <entityname.helmetsb2>Special helmet O.C.A. (Lantern) black-orange</entityname.helmetsb2>
+  <entitydescription.helmetsb2>Modified coalition ballistic helmet. Part of the «O.C.A. Special Suit kit» kit (Omnidirectional Combined Armor). A flashlight has been added.</entitydescription.helmetsb2>
+  <entityname.helmetsb3>Special helmet O.C.A. (Lantern/Mask) black-orange</entityname.helmetsb3>
+  <entitydescription.helmetsb3>Modified coalition ballistic helmet. Part of the «O.C.A. Special Suit» kit (Omnidirectional Combined Armor). A flashlight has been added. Slightly modified, using an Underwater Mask.</entitydescription.helmetsb3>
+  <!--Глубоководные Шлемы(Старые образцы/Устаревшие)/Deep-sea helmets(old samples/outdated)/旧式潜水头盔/舊式潛水頭盔-->
+  <entityname.underwaterhelmetsprototypew11>Old style Modular helmet O.R.C.A. (Lantern/Mask) white-blue</entityname.underwaterhelmetsprototypew11>
+  <entitydescription.underwaterhelmetsprototypew11>Old style Modular helmet model O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp.</entitydescription.underwaterhelmetsprototypew11>
+  <entityname.underwaterhelmetsprototypew12>Old style Modular helmet O.R.C.A. (Lantern/Mask«Visor») white-blue</entityname.underwaterhelmetsprototypew12>
+  <entitydescription.underwaterhelmetsprototypew12>Old style Modular helmet model O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor».</entitydescription.underwaterhelmetsprototypew12>
+  <entityname.underwaterhelmetsprototypew2>Old style Heavy helmet М-O.R.C.A. (Lantern/Mask/«Visor»/«Rebreather») white-blue</entityname.underwaterhelmetsprototypew2>
+  <entitydescription.underwaterhelmetsprototypew2>Old style Heavy helmet model М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor». This model uses a subcompact device «Rebreather».</entitydescription.underwaterhelmetsprototypew2>
+  <entityname.underwaterhelmetsprototypew31>Old style Super Heavy helmet E-O.R.C.A. (Lantern/Mask/«Visor»/«Rebreather+») white-blue</entityname.underwaterhelmetsprototypew31>
+  <entitydescription.underwaterhelmetsprototypew31>Old style Super Heavy helmet model E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor». It has an improved modification of «Rebreather+».</entitydescription.underwaterhelmetsprototypew31>
+  <entityname.underwaterhelmetsprototypew32>Old style Super Heavy helmet E-O.R.C.A. (Lantern/Mask/«Visor+»/«Rebreather+») white-blue</entityname.underwaterhelmetsprototypew32>
+  <entitydescription.underwaterhelmetsprototypew32>Old style Super Heavy helmet model E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has an improved modification of «Visor+». It has an improved modification of «Rebreather+».</entitydescription.underwaterhelmetsprototypew32>
+  <entityname.underwaterhelmetsprototypeb11>Old style Modular helmet O.R.C.A. (Lantern/Mask) black-orange</entityname.underwaterhelmetsprototypeb11>
+  <entitydescription.underwaterhelmetsprototypeb11>Old style Modular helmet model O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp.</entitydescription.underwaterhelmetsprototypeb11>
+  <entityname.underwaterhelmetsprototypeb12>Old style Modular helmet O.R.C.A. (Lantern/Mask«Visor») black-orange</entityname.underwaterhelmetsprototypeb12>
+  <entitydescription.underwaterhelmetsprototypeb12>Old style Modular helmet model O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor».</entitydescription.underwaterhelmetsprototypeb12>
+  <entityname.underwaterhelmetsprototypeb2>Old style Heavy helmet М-O.R.C.A. (Lantern/Mask/«Visor»/«Rebreather») black-orange</entityname.underwaterhelmetsprototypeb2>
+  <entitydescription.underwaterhelmetsprototypeb2>Old style Heavy helmet model М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor». This model uses a subcompact device «Rebreather».</entitydescription.underwaterhelmetsprototypeb2>
+  <entityname.underwaterhelmetsprototypeb31>Old style Super Heavy helmet E-O.R.C.A. (Lantern/Mask/«Visor»/«Rebreather+») black-orange</entityname.underwaterhelmetsprototypeb31>
+  <entitydescription.underwaterhelmetsprototypeb31>Old style Super Heavy helmet model E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor». It has an improved modification of «Rebreather+».</entitydescription.underwaterhelmetsprototypeb31>
+  <entityname.underwaterhelmetsprototypeb32>Old style Super Heavy helmet E-O.R.C.A. (Lantern/Mask/«Visor+»/«Rebreather+») black-orange</entityname.underwaterhelmetsprototypeb32>
+  <entitydescription.underwaterhelmetsprototypeb32>Old style Super Heavy helmet model E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has an improved modification of «Visor+». It has an improved modification of «Rebreather+».</entitydescription.underwaterhelmetsprototypeb32>
+  <!--Глубоководные Шлемы/Deep-sea helmets/模块化头盔/模塊化頭盔-->
+  <entityname.underwaterhelmetsw11>Modular helmet O.R.C.A. (Lantern/Mask) white-blue</entityname.underwaterhelmetsw11>
+  <entitydescription.underwaterhelmetsw11>The Modular helmet O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp.</entitydescription.underwaterhelmetsw11>
+  <entityname.underwaterhelmetsw12>Modular helmet O.R.C.A. (Lantern/Mask/«Visor») white-blue</entityname.underwaterhelmetsw12>
+  <entitydescription.underwaterhelmetsw12>The Modular helmet O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor».</entitydescription.underwaterhelmetsw12>
+  <entityname.underwaterhelmetsw2>Heavy Combat Helmet М-O.R.C.A. (Lantern/Mask/«Visor»/«Rebreather») white-blue</entityname.underwaterhelmetsw2>
+  <entitydescription.underwaterhelmetsw2>The Heavy Helmet М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor». This model uses a subcompact device «Rebreather».</entitydescription.underwaterhelmetsw2>
+  <entityname.underwaterhelmetsw31>Super Heavy Assault Helmet «Horizon» E-O.R.C.A. (Lantern/Mask/«Visor»/«Rebreather+») white-blue</entityname.underwaterhelmetsw31>
+  <entitydescription.underwaterhelmetsw31>The Super Heavy Helmet E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor». It has an improved modification of «Rebreather+».</entitydescription.underwaterhelmetsw31>
+  <entityname.underwaterhelmetsw32>Super Heavy Assault Helmet «Horizon» E-O.R.C.A. (Lantern/Mask/«Visor+»/«Rebreather+») white-blue</entityname.underwaterhelmetsw32>
+  <entitydescription.underwaterhelmetsw32>The Super Heavy Helmet E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has an improved modification of «Visor+». It has an improved modification of «Rebreather+».</entitydescription.underwaterhelmetsw32>
+  <entityname.underwaterhelmetsb11>Modular helmet O.R.C.A. (Lantern/Mask) black-orange</entityname.underwaterhelmetsb11>
+  <entitydescription.underwaterhelmetsb11>The Modular helmet O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp.</entitydescription.underwaterhelmetsb11>
+  <entityname.underwaterhelmetsb12>Modular helmet O.R.C.A. (Lantern/Mask/«Visor») black-orange</entityname.underwaterhelmetsb12>
+  <entitydescription.underwaterhelmetsb12>The Modular helmet O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor».</entitydescription.underwaterhelmetsb12>
+  <entityname.underwaterhelmetsb2>Heavy Combat Helmet М-O.R.C.A. (Lantern/Mask/«Visor»/Rebreather) black-orange</entityname.underwaterhelmetsb2>
+  <entitydescription.underwaterhelmetsb2>The Heavy Helmet М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor». This model uses a subcompact device «Rebreather». </entitydescription.underwaterhelmetsb2>
+  <entityname.underwaterhelmetsb31>Super Heavy Assault Helmet «Horizon» E-O.R.C.A. (Lantern/Mask/«Visor»/«Rebreather+») black-orange</entityname.underwaterhelmetsb31>
+  <entitydescription.underwaterhelmetsb31>The Super Heavy Assault Helmet E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has a medical modification of «Visor». It has an improved modification of «Rebreather+».</entitydescription.underwaterhelmetsb31>
+  <entityname.underwaterhelmetsb32>Super Heavy Assault Helmet «Horizon» E-O.R.C.A. (Lantern/Mask/«Visor+»/«Rebreather+») black-orange</entityname.underwaterhelmetsb32>
+  <entitydescription.underwaterhelmetsb32>The Super Heavy Helmet E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). There is a built-in headlamp. It has an improved modification of «Visor+». It has an improved modification of «Rebreather+».</entitydescription.underwaterhelmetsb32>
+  <entityname.rabbithelmet1>Battle Helmet «Rabbit»</entityname.rabbithelmet1>
+  <entitydescription.rabbithelmet1>This advanced experimental battle helmet is being used by an unknown Mercenary Group.</entitydescription.rabbithelmet1>
+  <!--Гидрокостюмы(Старые образцы/Устаревшие)/Wetsuits(old samples/outdated)/旧式服装/舊式服裝-->
+  <entityname.divingsuitprototypew1>Old style Modular Wetsuit O.R.C.A. white-blue</entityname.divingsuitprototypew1>
+  <entitydescription.divingsuitprototypew1>Old style wetsuit model O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). Withstands pressure up to 4000 meters.</entitydescription.divingsuitprototypew1>
+  <entityname.divingsuitprototypeb1>Old style Modular Wetsuit O.R.C.A. black-orange</entityname.divingsuitprototypeb1>
+  <entitydescription.divingsuitprototypeb1>Old style wetsuit model O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor). Withstands pressure up to 4000 meters.</entitydescription.divingsuitprototypeb1>
+  <entityname.divingsuitprototypeb2>Old style Heavy Wetsuit М-O.R.C.A. black-orange</entityname.divingsuitprototypeb2>
+  <entitydescription.divingsuitprototypeb2>Old style wetsuit model М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). Built-in old style MC (Mechanical Counter-Pressure). Withstands pressure up to 6000 meters.</entitydescription.divingsuitprototypeb2>
+  <entityname.divingsuitprototypew2>Old style Heavy Wetsuit М-O.R.C.A. white-blue</entityname.divingsuitprototypew2>
+  <entitydescription.divingsuitprototypew2>Old style wetsuit model М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). Built-in old style MC (Mechanical Counter-Pressure). Withstands pressure up to 6000 meters..</entitydescription.divingsuitprototypew2>
+  <entityname.divingsuitprototypeb3>Old style Super-heavy wetsuit E-O.R.C.A. black-orange</entityname.divingsuitprototypeb3>
+  <entitydescription.divingsuitprototypeb3>Old style wetsuit model E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). Built-in old-style MC (Mechanical Counter-Pressure)). For faster movement, a compartment for nuclear fuel was added. Withstands pressure up to 10000 meters.</entitydescription.divingsuitprototypeb3>
+  <entityname.divingsuitprototypew3>Old style Super-heavy wetsuit E-O.R.C.A. white-blue</entityname.divingsuitprototypew3>
+  <entitydescription.divingsuitprototypew3>Old style wetsuit model E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). Built-in old-style MC (Mechanical Counter-Pressure). For faster movement, a compartment for nuclear fuel was added. Withstands pressure up to 10000 meters.</entitydescription.divingsuitprototypew3>
+  <!--Гидрокостюмы/Wetsuits/服装/服裝-->
+  <entityname.specialsuitw1>Special Suit O.C.A. white-blue</entityname.specialsuitw1>
+  <entitydescription.specialsuitw1>Work suit. Part of the «O.C.A. Special Suit» kit (Omnidirectional Combined Armor). Does not protect against pressure.</entitydescription.specialsuitw1>
+  <entityname.specialsuitb1>Special Suit O.C.A. black-orange</entityname.specialsuitb1>
+  <entitydescription.specialsuitb1>Work suit. Part of the «O.C.A. Special Suit» kit (Omnidirectional Combined Armor). Does not protect against pressure.</entitydescription.specialsuitb1>
+  <entityname.divingsuitw1>Modular Wetsuit O.R.C.A. white-blue</entityname.divingsuitw1>
+  <entitydescription.divingsuitw1>Modified wetsuit O.R.C.A. kit (Omnidirectional Anti-Radiation Combined Armor). Withstands pressure up to 4000 meters.</entitydescription.divingsuitw1>
+  <entityname.divingsuitb1>Modular Wetsuit O.R.C.A. black-orange</entityname.divingsuitb1>
+  <entitydescription.divingsuitb1>Modified wetsuit O.R.C.A. kit (Omnidirectional Anti-Radiation Combined Armor). Withstands pressure up to 4000 meters.</entitydescription.divingsuitb1>
+  <entityname.divingsuitb2>Heavy Combat Wetsuit М-O.R.C.A. black-orange</entityname.divingsuitb2>
+  <entitydescription.divingsuitb2>Heavy wetsuit М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). Built-in prototype MC (Mechanical Counter-Pressure). Withstands pressure up to 6000 meters.</entitydescription.divingsuitb2>
+  <entityname.divingsuitw2>Heavy Combat Wetsuit М-O.R.C.A. white-blue</entityname.divingsuitw2>
+  <entitydescription.divingsuitw2>Heavy wetsuit М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). Built-in prototype MC (Mechanical Counter-Pressure). Withstands pressure up to 6000 meters.</entitydescription.divingsuitw2>
+  <entityname.divingsuitb3>Super-heavy Assault wetsuit «Horizon» E-O.R.C.A. black-orange</entityname.divingsuitb3>
+  <entitydescription.divingsuitb3>Assault Wetsuit E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). Built-in E-IMC (Experimentally Improved Mechanical Counter-Pressure). For faster movement, a compartment for nuclear fuel was added. Withstands pressure up to 10000 meters.</entitydescription.divingsuitb3>
+  <entityname.divingsuitw3>Super-heavy Assault wetsuit «Horizon» E-O.R.C.A. white-blue</entityname.divingsuitw3>
+  <entitydescription.divingsuitw3>Assault Wetsuit E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). Built-in E-IMC (Experimentally Improved Mechanical Counter-Pressure). For faster movement, a compartment for nuclear fuel was added. Withstands pressure up to 10000 meters.</entitydescription.divingsuitw3>
+  <!--Бронежилеты(Старые образцы/Устаревшие)/Body armor(old samples/outdated)-->
+  <entityname.bodyarmorprototypew1>Old style Modular body armor O.R.C.A. white-blue</entityname.bodyarmorprototypew1>
+  <entitydescription.bodyarmorprototypew1>Old style modular body armor model O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor).</entitydescription.bodyarmorprototypew1>
+  <entityname.bodyarmorprototypeb1>Old style Modular body armor O.R.C.A. black-orange</entityname.bodyarmorprototypeb1>
+  <entitydescription.bodyarmorprototypeb1>Old style modular body armor model O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor).</entitydescription.bodyarmorprototypeb1>
+  <entityname.bodyarmorprototypew2>Old style Heavy Body Armor М-O.R.C.A. white-blue</entityname.bodyarmorprototypew2>
+  <entitydescription.bodyarmorprototypew2>Old style Heavy body armor model М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). Added pockets for carrying small items.</entitydescription.bodyarmorprototypew2>
+  <entityname.bodyarmorprototypeb2>Old style Heavy Body Armor М-O.R.C.A. black-orange</entityname.bodyarmorprototypeb2>
+  <entitydescription.bodyarmorprototypeb2>Old style Heavy body armor model М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). Added pockets for carrying small items.</entitydescription.bodyarmorprototypeb2>
+  <entityname.bodyarmorprototypeb3>Old style Super-Heavy body armor E-O.R.C.A. black-orange</entityname.bodyarmorprototypeb3>
+  <entitydescription.bodyarmorprototypeb3>Old style Super-Heavy body armor model E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). Added pockets for carrying small items.</entitydescription.bodyarmorprototypeb3>
+  <entityname.bodyarmorprototypew3>Old style Super-Heavy body armor E-O.R.C.A. white-blue</entityname.bodyarmorprototypew3>
+  <entitydescription.bodyarmorprototypew3>Old style Super-Heavy body armor model E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). Added pockets for carrying small items.</entitydescription.bodyarmorprototypew3>
+  <!--Бронежилеты/Body armor/护甲/護甲-->
+  <entityname.bodyarmorspecial>Special body armor O.C.A.</entityname.bodyarmorspecial>
+  <entitydescription.bodyarmorspecial>Body armor set «O.C.A. Special Suit» kit (Omnidirectional Combined Armor).</entitydescription.bodyarmorspecial>
+  <entityname.bodyarmorw1>Modular body armor O.R.C.A. white-blue</entityname.bodyarmorw1>
+  <entitydescription.bodyarmorw1>Modular body armor O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor).</entitydescription.bodyarmorw1>
+  <entityname.bodyarmorb1>Modular body armor O.R.C.A. black-orange</entityname.bodyarmorb1>
+  <entitydescription.bodyarmorb1>Modular body armor O.R.C.A. (Omnidirectional Anti-Radiation Combined Armor).</entitydescription.bodyarmorb1>
+  <entityname.bodyarmorw2>Heavy Combat Body Armor М-O.R.C.A. white-blue</entityname.bodyarmorw2>
+  <entitydescription.bodyarmorw2>Heavy Combat Body Armor М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). Added pockets for carrying small items.</entitydescription.bodyarmorw2>
+  <entityname.bodyarmorb2>Heavy Combat Body Armor М-O.R.C.A. black-orange</entityname.bodyarmorb2>
+  <entitydescription.bodyarmorb2>Heavy Combat Body Armor М-O.R.C.A. (Modified - Omnidirectional Anti-Radiation Combined Armor). Added pockets for carrying small items.</entitydescription.bodyarmorb2>
+  <entityname.bodyarmorb3>Super-Heavy Assault Body Armor E-O.R.C.A. black-orange</entityname.bodyarmorb3>
+  <entitydescription.bodyarmorb3>Super-Heavy Assault Body Armor E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). Added pockets for carrying small items.</entitydescription.bodyarmorb3>
+  <entityname.bodyarmorw3>Super-Heavy Assault Body Armor E-O.R.C.A. white-blue</entityname.bodyarmorw3>
+  <entitydescription.bodyarmorw3>Super-Heavy Assault Body Armor E-O.R.C.A. (Experimentally - Omnidirectional Anti-Radiation Combined Armor). Added pockets for carrying small items.</entitydescription.bodyarmorw3>
+  <!--Ранцы/Backpack/背包/背包-->
+  <entityname.backpacksequipmentw1>Assault Kit «L» white</entityname.backpacksequipmentw1>
+  <entitydescription.backpacksequipmentw1>Assault Kit «Lightweight». The design has small-sized main compartments for carrying weapons, as well as medium and small-sized items.</entitydescription.backpacksequipmentw1>
+  <entityname.backpacksequipmentb1>Assault Kit «L» black</entityname.backpacksequipmentb1>
+  <entitydescription.backpacksequipmentb1>Assault Kit «Lightweight». The design has small-sized main compartments for carrying weapons, as well as medium and small-sized items.</entitydescription.backpacksequipmentb1>
+  <entityname.backpacksequipmentw2>Assault Kit «S» white</entityname.backpacksequipmentw2>
+  <entitydescription.backpacksequipmentw2>Assault Kit «Standard». The design has large-sized main compartments for carrying weapons, as well as medium and small-sized items.</entitydescription.backpacksequipmentw2>
+  <entityname.backpacksequipmentb2>Assault Kit «S» black</entityname.backpacksequipmentb2>
+  <entitydescription.backpacksequipmentb2>Assault Kit «Standard». The design has large-sized main compartments for carrying weapons, as well as medium and small-sized items.</entitydescription.backpacksequipmentb2>
+  <entityname.backpacksequipmentw3>Assault Kit «H» white</entityname.backpacksequipmentw3>
+  <entitydescription.backpacksequipmentw3>Assault Kit «Heavy». The design has spacious main compartments for carrying weapons, as well as medium and small-sized items.</entitydescription.backpacksequipmentw3>
+  <entityname.backpacksequipmentb3>Assault Kit «H» black</entityname.backpacksequipmentb3>
+  <entitydescription.backpacksequipmentb3>Assault Kit «Heavy». The design has spacious main compartments for carrying weapons, as well as medium and small-sized items.</entitydescription.backpacksequipmentb3>
+  <!--Оборудование/Equipment/设备/設備-->
+  <entityname.handheldstatusmonitor2>Handheld Status Monitor</entityname.handheldstatusmonitor2>
+  <entitydescription.handheldstatusmonitor2>Allows you to remotely monitor the condition of the submarine hull and electrics.</entitydescription.handheldstatusmonitor2>
+  <entityname.handheldstatusmonitor3>Handheld Status Monitor end Handheld Itemfinder</entityname.handheldstatusmonitor3>
+  <entitydescription.handheldstatusmonitor3>The improved version allows you to remotely monitor the condition of the submarine hull, electrics and search for items.</entitydescription.handheldstatusmonitor3>
+</infotexts>

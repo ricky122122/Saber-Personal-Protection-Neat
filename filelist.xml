@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Saber Personal Protection Neat" modversion="1.0.0" corepackage="False" steamworkshopid="3030769223" gameversion="1.0.21.0">
+  <Item file="%ModDir%/Jobgear/helmets.xml" />
+  <Item file="%ModDir%/Jobgear/underwaterhelmets.xml" />
+  <Item file="%ModDir%/Jobgear/underwaterhelmetsprototype.xml" />
+  <Item file="%ModDir%/Jobgear/divingsuit.xml" />
+  <Item file="%ModDir%/Jobgear/divingsuitprototype.xml" />
+  <Item file="%ModDir%/Jobgear/bodyarmor.xml" />
+  <Item file="%ModDir%/Jobgear/bodyarmorprototype.xml" />
+  <Item file="%ModDir%/Jobgear/backpacks.xml" />
+  <Text file="%ModDir%/English.xml" />
+</contentpackage>
