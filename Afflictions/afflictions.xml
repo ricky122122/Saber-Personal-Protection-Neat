@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+
+	<Affliction identifier="orcasuit" name="Orca Suit" description="" isbuff="false" limbspecific="false" indicatorlimb="Torso" showiconthreshold="5" maxstrength="4" duration="1.5" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Icon texture="Content/UI/MainIconsAtlas.png" sheetindex="4,7" sheetelementsize="128,128" color="10,255,10,255" origin="0,0" />
+    </Affliction>
+	
+	<Affliction identifier="orcahelmet" name="Orca Helmet" description="" isbuff="false" limbspecific="false" indicatorlimb="Torso" showiconthreshold="5" maxstrength="4" duration="1.5" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Icon texture="Content/UI/MainIconsAtlas.png" sheetindex="4,7" sheetelementsize="128,128" color="10,255,10,255" origin="0,0" />
+      <Effect minstrength="0.9" maxstrength="1">
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="gteq 1" />
+		<Affliction identifier="orcapressureprotection" strength="1" />
+		</StatusEffect>
+	  </Effect>
+      <Effect minstrength="1.9" maxstrength="2">
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="1" />
+		<Affliction identifier="orcapressureprotection" strength="1" />
+		</StatusEffect>
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="gteq 2" />
+		<Affliction identifier="orcapressureprotection" strength="2" />
+		</StatusEffect>
+	  </Effect>
+      <Effect minstrength="2.9" maxstrength="3">
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="1" />
+		<Affliction identifier="orcapressureprotection" strength="1" />
+		</StatusEffect>
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="2" />
+		<Affliction identifier="orcapressureprotection" strength="2" />
+		</StatusEffect>
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="gteq 3" />
+		<Affliction identifier="orcapressureprotection" amount="3" />
+		</StatusEffect>
+	  </Effect>
+      <Effect minstrength="3.9" maxstrength="4">
+		<StatusEffect target="Character" ObstructVision="true" setvalue="true" />
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="1" />
+		<Affliction identifier="orcapressureprotection" amount="1" />
+		</StatusEffect>
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="2" />
+		<Affliction identifier="orcapressureprotection" amount="2" />
+		</StatusEffect>
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="3" />
+		<Affliction identifier="orcapressureprotection" amount="3" />
+		</StatusEffect>
+		<StatusEffect target="Character" setvalue="true" interval="1" disabledeltatime="true" >
+		<Conditional orcasuit="4" />
+		<Affliction identifier="orcapressureprotection" amount="4" />
+		</StatusEffect>
+	  </Effect>
+    </Affliction>
+	
+	<Affliction identifier="orcapressureprotection" name="Orca Pressure Protection" isbuff="false" limbspecific="false" indicatorlimb="Torso" showiconthreshold="1" maxstrength="4" duration="1.5" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+	  <Description Text="Pressure Protection upto 4,000 Depth" minstrength="0.9" maxstrength="1" target="Any" />
+      <Effect minstrength="0.9" maxstrength="1">
+		<StatusEffect target="Character" PressureProtection="4000.0" setvalue="true" comparison="And" />
+	  </Effect>
+	  <Description Text="Pressure Protection upto 6,000 Depth" minstrength="1.9" maxstrength="2" target="Any" />
+      <Effect minstrength="1.9" maxstrength="2">
+		<StatusEffect target="Character" PressureProtection="6000.0" setvalue="true" comparison="And" />
+	  </Effect>
+	  <Description Text="Pressure Protection upto 8,000 Depth" minstrength="2.9" maxstrength="3" target="Any" />
+      <Effect minstrength="2.9" maxstrength="3">
+		<StatusEffect target="Character" PressureProtection="8000.0" setvalue="true" comparison="And" />
+	  </Effect>
+	  <Description Text="Pressure Protection upto 10,000 Depth" minstrength="3.9" maxstrength="4" target="Any" />
+      <Effect minstrength="3.9" maxstrength="4">
+		<StatusEffect target="Character" PressureProtection="10000.0" setvalue="true" comparison="And" />
+	  </Effect>
+      <Icon texture="Content/UI/MainIconsAtlas.png" sheetindex="4,7" sheetelementsize="128,128" color="10,255,10,255" origin="0,0" />
+    </Affliction>
+	
+</Afflictions>

@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="undersuitw1" category="Equipment" tags="smallitem,clothing,provocative" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="carbon" />
+    </Fabricate>
+    <Deconstruct time="15">
+      <Item identifier="titanium" />
+      <Item identifier="plastic" />
+      <Item identifier="carbon" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon name="undersuitw1" texture="orcavestw1.png" sourcerect="189,196,67,60" origin="0.5198739,0.5755753" />
+    <Sprite name="Salvaged ORCA Undersuit" texture="%ModDir%/Jobgear/MiscJobGear.png" sourcerect="17,16,200,83" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 2 Torso" texture="orcasuitw.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Hand" texture="orcasuitw.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Hand" texture="orcasuitw.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Lower Arm" texture="orcasuitw.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Lower Arm" texture="orcasuitw.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Upper Arm" texture="orcasuitw.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Upper Arm" texture="orcasuitw.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Waist" texture="orcasuitw.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Thigh" texture="orcasuitw.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Thigh" texture="orcasuitw.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Leg" texture="orcasuitw.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Leg" texture="orcasuitw.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Shoe" texture="orcasuitw.png" limb="RightFoot" sound="footstep_armor" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Shoe" texture="orcasuitw.png" limb="LeftFoot" sound="footstep_armor" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.95" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="lacerations" armorsector="0.0,360.0" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+	  <StatValue stattype="WalkingSpeed" value="-0.1" />
+	  <StatValue stattype="SwimmingSpeed" value="-0.05" />
+	  <StatValue stattype="MeleeAttackSpeed" value="-0.15" />
+      <StatusEffect type="OnWearing" target="Character" setvalue="true" interval="1" disabledeltatime="true">
+		<Affliction identifier="orcasuit" strength="1" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="" identifier="undersuitw2" category="Equipment,Diving" tags="smallitem,clothing,provocative,diving,divinggear_wearableindoors" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Fabricate suitablefabricators="fabricator" requiredtime="50">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="electrical" level="15" />
+      <RequiredSkill identifier="weapons" level="50" />
+      <RequiredItem identifier="undersuitw1" />
+      <RequiredItem identifier="divingsuit" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="rubber" />
+      <RequiredItem identifier="rubber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="plastic" />
+      <Item identifier="titanium" amount="2" />
+      <Item identifier="carbon" />
+      <Item identifier="rubber" />
+      <Item identifier="organicfiber" />
+      <Item identifier="aluminium" amount="4" />
+      <Item identifier="lead" />
+    </Deconstruct>
+    <InventoryIcon name="orcavestw2" texture="%ModDir%/Jobgear/orcavestw1.png" sourcerect="189,196,67,60" origin="0.5198739,0.5755753" />
+    <Sprite name="Horizons X-AMCP Suit v.0.8" texture="%ModDir%/Jobgear/MiscJobGear.png" sourcerect="455,95,195,83" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 2 Torso" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="Torso" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="16,33,101,167" origin="0.5,0.58" scale="0.39" />
+      <sprite name="Security Officer's Uniform 2 Right Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="RightArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,0,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="LeftArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,128,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Right Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="RightForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,0,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="LeftForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,128,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Waist" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="Waist" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,0,104,90" origin="0.45,0.45" scale="0.35" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Right Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Left Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.25" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="concussion" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.60" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="progressivestun" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="incrementalstun" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.25" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.40" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="emp" damagemultiplier="0.60" damagesound="LimbArmor" />
+	  <StatValue stattype="WalkingSpeed" value="-0.15" />
+	  <StatValue stattype="SwimmingSpeed" value="-0.075" />
+      <StatValue stattype="FlowResistance" value="0.25" />
+	  <StatValue stattype="MeleeAttackSpeed" value="-0.2" />
+      <StatusEffect type="OnWearing" target="Character" setvalue="true" interval="1" disabledeltatime="true">
+		<Affliction identifier="orcasuit" strength="2" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="" identifier="undersuitw3" category="Equipment,Diving" tags="smallitem,clothing,provocative,diving,divinggear_wearableindoors" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Fabricate suitablefabricators="fabricator" requiredtime="55">
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredSkill identifier="electrical" level="20" />
+      <RequiredSkill identifier="weapons" level="55" />
+      <RequiredItem identifier="undersuitw2" />
+      <RequiredItem identifier="combatdivingsuit" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Deconstruct time="25">
+      <Item identifier="plastic" amount="3" />
+      <Item identifier="titanium" amount="6" />
+      <Item identifier="carbon" />
+      <Item identifier="rubber" amount="5" />
+      <Item identifier="organicfiber" />
+      <Item identifier="aluminium" amount="10" />
+      <Item identifier="lead" />
+      <Item identifier="physicorium" />
+    </Deconstruct>
+    <InventoryIcon name="orcavestw3" texture="%ModDir%/Jobgear/orcavestw1.png" sourcerect="189,196,67,60" origin="0.5198739,0.5755753" />
+    <Sprite name="Horizons X-AMCP Suit v.0.8" texture="%ModDir%/Jobgear/MiscJobGear.png" sourcerect="455,95,195,83" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 2 Torso" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="Torso" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="16,33,101,167" origin="0.5,0.58" scale="0.39" />
+      <sprite name="Security Officer's Uniform 2 Right Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="RightArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,0,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="LeftArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,128,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Right Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="RightForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,0,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsow.png" limb="LeftForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,128,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Waist" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="Waist" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,0,104,90" origin="0.45,0.45" scale="0.35" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Right Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Left Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.20" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.20" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="concussion" damagemultiplier="0.20" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.40" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="progressivestun" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="incrementalstun" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.15" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.20" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="emp" damagemultiplier="0.45" damagesound="LimbArmor" />
+	  <StatValue stattype="WalkingSpeed" value="-0.2" />
+	  <StatValue stattype="SwimmingSpeed" value="-0.1" />
+      <StatValue stattype="FlowResistance" value="0.5" />
+	  <StatValue stattype="MeleeAttackSpeed" value="-0.25" />
+      <StatusEffect type="OnWearing" target="Character" setvalue="true" interval="1" disabledeltatime="true">
+		<Affliction identifier="orcasuit" strength="3" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="" identifier="undersuitw4" category="Equipment,Diving" tags="smallitem,clothing,provocative,diving,divinggear_wearableindoors" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="mechanical" level="60" />
+      <RequiredSkill identifier="electrical" level="25" />
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="undersuitw3" />
+      <RequiredItem identifier="abyssdivingsuit" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="aliencircuitry" />
+      <RequiredItem identifier="aliencircuitry" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="plastic" amount="3" />
+      <Item identifier="titanium" amount="8" />
+      <Item identifier="carbon" />
+      <Item identifier="rubber" amount="7" />
+      <Item identifier="organicfiber" />
+      <Item identifier="aluminium" amount="16" />
+      <Item identifier="lead" amount="2" />
+      <Item identifier="physicorium" />
+    </Deconstruct>
+    <InventoryIcon name="orcavestw4" texture="orcavestw1.png" sourcerect="189,196,67,60" origin="0.5198739,0.5755753" />
+    <Sprite name="Heavy ORCA Suit" texture="%ModDir%/Jobgear/MiscJobGear.png" sourcerect="456,95,208,95" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 2 Torso" texture="%ModDir%/Jobgear/xamcpsuittorso.png" limb="Torso" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="10,35,105,165" origin="0.5,0.58" scale="0.39" />
+      <sprite name="Security Officer's Uniform 2 Right Arm" texture="%ModDir%/Jobgear/xamcpsuittorso.png" limb="RightArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,0,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Arm" texture="%ModDir%/Jobgear/xamcpsuittorso.png" limb="LeftArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,128,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Right Lower Arm" texture="%ModDir%/Jobgear/xamcpsuittorso.png" limb="RightForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,0,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Lower Arm" texture="%ModDir%/Jobgear/xamcpsuittorso.png" limb="LeftForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,128,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Waist" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="Waist" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,0,104,90" origin="0.45,0.45" scale="0.35" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Right Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="RightFoot" hidelimb="true" sound="footstep_armor_heavy" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Left Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsw.png" limb="LeftFoot" hidelimb="true" sound="footstep_armor_heavy" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="concussion" damagemultiplier="0.0" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.20" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="progressivestun" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="incrementalstun" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.0" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.0" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="slowparalysis" damagemultiplier="0.70" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="emp" damagemultiplier="0.30" damagesound="LimbArmor" />
+	  <StatValue stattype="WalkingSpeed" value="-0.25" />
+	  <StatValue stattype="SwimmingSpeed" value="-0.125" />
+      <StatValue stattype="FlowResistance" value="0.75" />
+	  <StatValue stattype="MeleeAttackSpeed" value="-0.3" />
+      <StatusEffect type="OnWearing" target="Character" setvalue="true" interval="1" disabledeltatime="true">
+		<Affliction identifier="orcasuit" strength="4" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="" identifier="undersuitb1" category="Equipment" tags="smallitem,clothing,provocative" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="carbon" />
+    </Fabricate>
+    <Deconstruct time="15">
+      <Item identifier="titanium" />
+      <Item identifier="plastic" />
+      <Item identifier="carbon" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon name="undersuitb1" texture="orcavestb1.png" sourcerect="189,196,67,60" origin="0.5198739,0.5755753" />
+    <Sprite name="Salvaged ORCA Undersuitdarkorange" texture="%ModDir%/Jobgear/MiscJobGear.png" sourcerect="230,113,204,82" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 2 Torso" texture="orcasuitb.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Torso" texture="orcasuitb.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Hand" texture="orcasuitb.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Hand" texture="orcasuitb.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Lower Arm" texture="orcasuitb.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Lower Arm" texture="orcasuitb.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Upper Arm" texture="orcasuitb.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Upper Arm" texture="orcasuitb.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Waist" texture="orcasuitb.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Thigh" texture="orcasuitb.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Thigh" texture="orcasuitb.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Leg" texture="orcasuitb.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Leg" texture="orcasuitb.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Right Shoe" texture="orcasuitb.png" limb="RightFoot" sound="footstep_armor" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Security Officer's Uniform 2 Left Shoe" texture="orcasuitb.png" limb="LeftFoot" sound="footstep_armor" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.95" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="lacerations" armorsector="0.0,360.0" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+	  <StatValue stattype="WalkingSpeed" value="-0.025" />
+	  <StatValue stattype="SwimmingSpeed" value="-0.00125" />
+	  <StatValue stattype="MeleeAttackSpeed" value="-0.05" />
+      <StatusEffect type="OnWearing" target="Character" setvalue="true" interval="1" disabledeltatime="true">
+		<Affliction identifier="orcasuit" strength="1" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="" identifier="undersuitb2" category="Equipment,Diving" tags="smallitem,clothing,provocative,diving,divinggear_wearableindoors" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Fabricate suitablefabricators="fabricator" requiredtime="50">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="electrical" level="15" />
+      <RequiredSkill identifier="weapons" level="50" />
+      <RequiredItem identifier="undersuitb1" />
+      <RequiredItem identifier="divingsuit" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="rubber" />
+      <RequiredItem identifier="rubber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="plastic" />
+      <Item identifier="titanium" amount="2" />
+      <Item identifier="carbon" />
+      <Item identifier="rubber" />
+      <Item identifier="organicfiber" />
+      <Item identifier="aluminium" amount="4" />
+      <Item identifier="lead" />
+    </Deconstruct>
+    <InventoryIcon name="undersuitb2" texture="orcavestb1.png" sourcerect="189,196,67,60" origin="0.5198739,0.5755753" />
+    <Sprite name="Heavy ORCA Suit, Dark Orange (Rank Special)" texture="%ModDir%/Jobgear/MiscJobGear.png" sourcerect="18,101,212,95" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 2 Torso" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="Torso" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="14,37,100,165" origin="0.5,0.58" scale="0.39" />
+      <sprite name="Security Officer's Uniform 2 Right Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="RightArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,0,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="LeftArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,128,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Right Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="RightForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,0,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="LeftForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,128,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Waist" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="Waist" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,0,104,90" origin="0.45,0.45" scale="0.35" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Right Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Left Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.25" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="concussion" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.60" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="progressivestun" damagemultiplier="0.50" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="incrementalstun" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.25" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.40" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="emp" damagemultiplier="0.60" damagesound="LimbArmor" />
+	  <StatValue stattype="WalkingSpeed" value="-0.05" />
+	  <StatValue stattype="SwimmingSpeed" value="-0.025" />
+      <StatValue stattype="FlowResistance" value="0.25" />
+	  <StatValue stattype="MeleeAttackSpeed" value="-0.1" />
+      <StatusEffect type="OnWearing" target="Character" setvalue="true" interval="1" disabledeltatime="true">
+		<Affliction identifier="orcasuit" strength="2" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="" identifier="undersuitb3" category="Equipment,Diving" tags="smallitem,clothing,provocative,diving,divinggear_wearableindoors" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Fabricate suitablefabricators="fabricator" requiredtime="55">
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredSkill identifier="electrical" level="20" />
+      <RequiredSkill identifier="weapons" level="55" />
+      <RequiredItem identifier="undersuitb2" />
+      <RequiredItem identifier="combatdivingsuit" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Deconstruct time="25">
+      <Item identifier="plastic" amount="3" />
+      <Item identifier="titanium" amount="6" />
+      <Item identifier="carbon" />
+      <Item identifier="rubber" amount="5" />
+      <Item identifier="organicfiber" />
+      <Item identifier="aluminium" amount="10" />
+      <Item identifier="lead" />
+      <Item identifier="physicorium" />
+    </Deconstruct>
+    <InventoryIcon name="undersuitb3" texture="%ModDir%/Jobgear/orcavestb1.png" sourcerect="189,196,67,60" origin="0.5198739,0.5755753" />
+    <Sprite name="Heavy ORCA Suit, Dark Orange (Rank Special)" texture="%ModDir%/Jobgear/MiscJobGear.png" sourcerect="18,101,212,95" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 2 Torso" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="Torso" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="14,37,100,165" origin="0.5,0.58" scale="0.39" />
+      <sprite name="Security Officer's Uniform 2 Right Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="RightArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,0,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="LeftArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,128,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Right Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="RightForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,0,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="LeftForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,128,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Waist" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="Waist" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,0,104,90" origin="0.45,0.45" scale="0.35" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Right Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Left Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.20" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.20" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="concussion" damagemultiplier="0.20" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.40" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="progressivestun" damagemultiplier="0.30" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="incrementalstun" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.15" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.20" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="emp" damagemultiplier="0.45" damagesound="LimbArmor" />
+	  <StatValue stattype="WalkingSpeed" value="-0.10" />
+	  <StatValue stattype="SwimmingSpeed" value="-0.05" />
+      <StatValue stattype="FlowResistance" value="0.5" />
+	  <StatValue stattype="MeleeAttackSpeed" value="-0.15" />
+      <StatusEffect type="OnWearing" target="Character" setvalue="true" interval="1" disabledeltatime="true">
+		<Affliction identifier="orcasuit" strength="3" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="" identifier="undersuitb4" category="Equipment,Diving" tags="smallitem,clothing,provocative,diving,divinggear_wearableindoors" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="mechanical" level="60" />
+      <RequiredSkill identifier="electrical" level="25" />
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="undersuitb3" />
+      <RequiredItem identifier="abyssdivingsuit" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="aliencircuitry" />
+      <RequiredItem identifier="aliencircuitry" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="plastic" amount="3" />
+      <Item identifier="titanium" amount="8" />
+      <Item identifier="carbon" />
+      <Item identifier="rubber" amount="7" />
+      <Item identifier="organicfiber" />
+      <Item identifier="aluminium" amount="16" />
+      <Item identifier="lead" amount="2" />
+      <Item identifier="physicorium" />
+    </Deconstruct>
+    <InventoryIcon name="undersuitb4" texture="%ModDir%/Jobgear/orcavestb1.png" sourcerect="189,196,67,60" origin="0.5198739,0.5755753" />
+    <Sprite name="Heavy ORCA Suit, Dark Orange (Rank Special)" texture="%ModDir%/Jobgear/MiscJobGear.png" sourcerect="18,101,212,95" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 2 Torso" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="Torso" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="14,37,100,165" origin="0.5,0.58" scale="0.39" />
+      <sprite name="Security Officer's Uniform 2 Right Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="RightArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,0,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="LeftArm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="128,128,64,128" origin="0.5,0.5" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Right Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="RightForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,0,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Left Lower Arm" texture="%ModDir%/Jobgear/orcasuitheavytorsob.png" limb="LeftForearm" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="192,128,64,128" origin="0.5,0.4" scale="0.37" />
+      <sprite name="Security Officer's Uniform 2 Waist" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="Waist" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,0,104,90" origin="0.45,0.45" scale="0.35" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Right Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Thigh" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftThigh" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,0,72,144" origin="0.5,0.4" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="104,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Left Leg" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftLeg" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="184,144,72,112" origin="0.5,0.55" scale="0.35" />
+      <sprite name="Security Officer's Uniform 2 Right Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <sprite name="Security Officer's Uniform 2 Left Shoe" texture="%ModDir%/Jobgear/orcasuitheavylegsb.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" sourcerect="0,92,104,90" origin="0.37,0.5" scale="0.37" rotation="90" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="concussion" damagemultiplier="0.0" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.20" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="progressivestun" damagemultiplier="0.10" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="incrementalstun" damagemultiplier="0.10" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.0" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.0" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="slowparalysis" damagemultiplier="0.70" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="emp" damagemultiplier="0.30" damagesound="LimbArmor" />
+	  <StatValue stattype="WalkingSpeed" value="-0.15" />
+	  <StatValue stattype="SwimmingSpeed" value="-0.075" />
+      <StatValue stattype="FlowResistance" value="0.75" />
+	  <StatValue stattype="MeleeAttackSpeed" value="-0.2" />
+      <StatusEffect type="OnWearing" target="Character" setvalue="true" interval="1" disabledeltatime="true">
+		<Affliction identifier="orcasuit" strength="4" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+</Items>

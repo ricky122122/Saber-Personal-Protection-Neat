@@ -1,83 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="backpacksequipmentw1" category="Equipment" tags="mediumitem,mobilecontainer,tool" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.35" fireproof="true" waterproof="true" description="" impactsoundtag="impact_soft">
-    <Fabricate suitablefabricators="fabricator" requiredtime="40">
-      <RequiredSkill identifier="mechanical" level="25" />
-      <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="toolbelt" />
-      <RequiredItem identifier="ballisticfiber" />
-      <RequiredItem identifier="carbon" />
-      <RequiredItem identifier="plastic" />
-      <RequiredItem identifier="rubber" />
-    </Fabricate>
-    <Deconstruct time="15">
-      <Item identifier="plastic" />
-      <Item identifier="titanium" />
-      <Item identifier="carbon" />
-      <Item identifier="rubber" />
-    </Deconstruct>
-    <Price baseprice="253" soldeverywhere="false">
-      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantmilitary" multiplier="1" minavailable="1" maxavailable="3" sold="true">
-        <Reputation faction="coalition" min="20" />
-      </Price>
-      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
-    </Price>
+  <Item name="" identifier="backpackw1" category="Equipment" tags="mediumitem,mobilecontainer" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.35" fireproof="true" waterproof="true" description="" impactsoundtag="impact_soft">
     <InventoryIcon texture="%ModDir%/Jobgear/powerpack.png" sourcerect="64,48,112,112" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Jobgear/powerpack.png" sourcerect="64,48,112,112" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="50" density="20" />
     <Wearable slots="Any,Bag" msg="ItemMsgPickUpSelect">
       <sprite name="powerpacktest" texture="%ModDir%/Jobgear/powerpackwearable.png" sourcerect="62,52,194,144" limb="Torso" inherittexturescale="false" scale="0.37" inherittexturedepth="true" origin="0.50029135,0.49528915" />
-      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="1.1" setvalue="true" disabledeltatime="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.9" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.9" />
-      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.95" setvalue="true" disabledeltatime="true"></StatusEffect>
     </Wearable>
-    <ItemContainer capacity="8" depth="0.5">
-      <Containable items="smallitem,gun,harpoonammo,weapon,smallplanter,alienpistol,ancientweapon,extinguisher" excludeditems="toolbelt,toolbox" />
+    <ItemContainer capacity="4" hideitems="true" depth="0.5">
+      <Containable items="smallitem" excludeditems="mobilecontainer" />
     </ItemContainer>
-    <Upgrade gameversion="0.10.0.0" scale="0.35" />
   </Item>
-  <Item name="" identifier="backpacksequipmentb1" category="Equipment" tags="mediumitem,mobilecontainer,tool" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.35" fireproof="true" waterproof="true" description="" impactsoundtag="impact_soft">
-    <Fabricate suitablefabricators="fabricator" requiredtime="40">
-      <RequiredSkill identifier="mechanical" level="25" />
-      <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="toolbelt" />
-      <RequiredItem identifier="ballisticfiber" />
-      <RequiredItem identifier="carbon" />
-      <RequiredItem identifier="plastic" />
-      <RequiredItem identifier="rubber" />
-    </Fabricate>
-    <Deconstruct time="15">
-      <Item identifier="plastic" />
-      <Item identifier="titanium" />
-      <Item identifier="carbon" />
-      <Item identifier="rubber" />
-    </Deconstruct>
-    <Price baseprice="253" soldeverywhere="false">
-      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantmilitary" multiplier="1" minavailable="1" maxavailable="3" sold="true">
-        <Reputation faction="separatists" min="20" />
-      </Price>
-      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
-    </Price>
+  <Item name="" identifier="backpackb1" category="Equipment" tags="mediumitem,mobilecontainer" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.35" fireproof="true" waterproof="true" description="" impactsoundtag="impact_soft">
     <InventoryIcon texture="%ModDir%/Jobgear/powerpackdo.png" sourcerect="64,48,112,112" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Jobgear/powerpackdo.png" sourcerect="64,48,112,112" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="50" density="20" />
     <Wearable slots="Any,Bag" msg="ItemMsgPickUpSelect">
       <sprite name="powerpacktest" texture="%ModDir%/Jobgear/powerpackwearabledo.png" sourcerect="62,52,194,144" limb="Torso" inherittexturescale="false" scale="0.37" inherittexturedepth="true" origin="0.50029135,0.49528915" />
-      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="1.1" setvalue="true" disabledeltatime="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.9" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.9" />
-      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.95" setvalue="true" disabledeltatime="true"></StatusEffect>
     </Wearable>
-    <ItemContainer capacity="8" depth="0.5">
-      <Containable items="smallitem,gun,harpoonammo,weapon,smallplanter,alienpistol,ancientweapon,extinguisher" excludeditems="toolbelt,toolbox" />
+    <ItemContainer capacity="4" hideitems="true" depth="0.5">
+      <Containable items="smallitem" excludeditems="mobilecontainer" />
     </ItemContainer>
-    <Upgrade gameversion="0.10.0.0" scale="0.35" />
   </Item>
 </Items>
